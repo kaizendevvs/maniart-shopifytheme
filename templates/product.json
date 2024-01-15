@@ -42,12 +42,6 @@
           "type": "description",
           "settings": {
           }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
@@ -57,15 +51,14 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
-        "share"
+        "description"
       ],
       "settings": {
-        "enable_sticky_info": true,
+        "enable_sticky_info": false,
         "color_scheme": "background-1",
-        "media_size": "large",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
+        "media_size": "small",
+        "constrain_to_viewport": false,
+        "media_fit": "cover",
         "gallery_layout": "thumbnail_slider",
         "media_position": "left",
         "image_zoom": "lightbox",
